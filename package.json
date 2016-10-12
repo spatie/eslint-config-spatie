@@ -1,11 +1,8 @@
 {
   "name": "eslint-config-spatie",
-  "version": "1.0.0",
+  "version": "1.1.0-rc.1",
   "description": "Spatie's ESLint config",
   "main": "index.js",
-  "scripts": {
-    "lint": "eslint ."
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/spatie/eslint-config-spatie"
