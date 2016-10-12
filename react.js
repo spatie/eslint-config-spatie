@@ -1,6 +1,6 @@
 module.exports = {
     extends: [
-        './index',
+        require.resolve('./index'),
         'plugin:react/recommended',
     ],
     parserOptions: {
