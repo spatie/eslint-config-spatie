@@ -26,5 +26,8 @@
   "homepage": "https://github.com/spatie/eslint-config-spatie",
   "peerDependencies": {
     "eslint": "^3.7.1"
+  },
+  "optionalDependencies": {
+    "eslint-plugin-react": "^6.4.1"
   }
 }

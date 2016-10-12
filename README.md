@@ -20,19 +20,15 @@ Then have your project's `.eslintrc` file extend the ruleset.
 }
 ```
 
-## Common Settings Cookbook
-
-### JSX
+If you're using React in your project:
 
 ```json
 {
-    "parserOptions": {
-        "ecmaFeatures": {
-            "jsx": true
-        }
-    }
+    "extends": "spatie/react"
 }
 ```
+
+## Common Settings Cookbook
 
 ### Globals
 
