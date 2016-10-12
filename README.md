@@ -2,6 +2,8 @@
 
 Our base eslint configuration.
 
+Spatie is a webdesign agency based in Antwerp, Belgium. You'll find an overview of all our open source projects [on our website](https://spatie.be/opensource).
+
 ## Installation
 
 Install this package, and save it as a devDependency:
@@ -15,6 +17,41 @@ Then have your project's `.eslintrc` file extend the ruleset.
 ```json
 {
     "extends": "spatie"
+}
+```
+
+## Common Settings Cookbook
+
+### JSX
+
+```json
+{
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    }
+}
+```
+
+### Globals
+
+```json
+{
+    "globals": {
+        "$": true
+    }
+}
+```
+
+### Environments
+
+```json
+{
+    "env": {
+      "browser": true,
+      "node": true
+    }
 }
 ```
 
