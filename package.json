@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-spatie",
-  "version": "1.1.0-rc.1",
+  "version": "1.1.0",
   "description": "Spatie's ESLint config",
   "main": "index.js",
   "repository": {
