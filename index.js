@@ -15,6 +15,7 @@ module.exports = {
         'brace-style': ['error', '1tbs'],
         'comma-dangle': ['error', 'always-multiline'],
         'comma-style': ['error', 'last'],
+        'eqeqeq': ['error', 'always'],
         'indent': ['error', 4, {
             'SwitchCase': 1
         }],
