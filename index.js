@@ -11,7 +11,7 @@ module.exports = {
         es6: true,
     },
     rules: {
-        'array-bracket-spating': ['error', 'always'],
+        'array-bracket-spacing': ['error', 'always'],
         'brace-style': ['error', '1tbs'],
         'comma-dangle': ['error', 'always-multiline'],
         'comma-style': ['error', 'last'],
