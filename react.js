@@ -15,4 +15,4 @@ module.exports = {
         'react/no-danger': 'off',
         'react/no-did-mount-set-state': 'off'
     },
-}
+};

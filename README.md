@@ -28,6 +28,14 @@ If you're using React in your project:
 }
 ```
 
+If you're using Vue in your project:
+
+```json
+{
+    "extends": "spatie/vue"
+}
+```
+
 ## Common Settings Cookbook
 
 ### Globals

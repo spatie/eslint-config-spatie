@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-spatie",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "Spatie's ESLint config",
   "main": "index.js",
   "repository": {
@@ -25,6 +25,8 @@
     "eslint": "^3.7.1"
   },
   "optionalDependencies": {
-    "eslint-plugin-react": "^6.4.1"
+    "eslint-plugin-html": "^1.5.3",
+    "eslint-plugin-react": "^6.4.1",
+    "eslint-plugin-vue": "^0.1.1"
   }
 }
