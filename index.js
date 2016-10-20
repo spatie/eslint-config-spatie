@@ -22,11 +22,6 @@ module.exports = {
         'linebreak-style': ['error', 'unix'],
         'keyword-spacing': 'error',
         'prefer-const': 'error',
-        'max-len': ['error', 120, {
-            comments: 80,
-            ignoreComments: false,
-            ignoreTrailingComments: false,
-        }],
         'no-case-declarations': 'off',
         'no-const-assign': 'error',
         'no-whitespace-before-property': 'error',
