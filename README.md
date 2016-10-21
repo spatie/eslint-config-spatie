@@ -20,7 +20,7 @@ Then have your project's `.eslintrc` file extend the ruleset.
 }
 ```
 
-If you're using React in your project:
+If you're using React in your project, you'll need to extend the React extension of the configuration, and install the eslint React plugin:
 
 ```json
 {
@@ -28,12 +28,20 @@ If you're using React in your project:
 }
 ```
 
-If you're using Vue in your project:
+```
+yarn add eslint-plugin-react --dev
+```
+
+If you're using Vue in your project, you'll need to extend the Vue extension of the configuration, and install the eslint Vue and html plugins:
 
 ```json
 {
     "extends": "spatie/vue"
 }
+```
+
+```
+yarn add eslint-plugin-vue eslint-plugin-html --dev
 ```
 
 ## Common Settings Cookbook
