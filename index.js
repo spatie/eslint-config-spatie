@@ -22,6 +22,7 @@ module.exports = {
         'linebreak-style': ['error', 'unix'],
         'keyword-spacing': 'error',
         'prefer-const': 'error',
+        'new-parens': 'error',
         'no-case-declarations': 'off',
         'no-const-assign': 'error',
         'no-whitespace-before-property': 'error',
