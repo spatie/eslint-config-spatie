@@ -25,6 +25,7 @@ module.exports = {
         'new-parens': 'error',
         'no-case-declarations': 'off',
         'no-const-assign': 'error',
+        'no-unused-vars': ['error', { 'args': 'none' }],
         'no-whitespace-before-property': 'error',
         'object-curly-spacing': ['error', 'always'],
         'quotes': ['error', 'single'],
