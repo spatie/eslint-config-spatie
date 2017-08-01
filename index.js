@@ -1,15 +1,12 @@
 module.exports = {
     extends: 'eslint:recommended',
-    parserOptions: {
-        ecmaVersion: 2017,
-        sourceType: 'module',
-        ecmaFeatures: {
-            experimentalObjectRestSpread: true,
-        },
-    },
+    parser: 'babel-eslint',
     env: {
         es6: true,
     },
+    plugins: [
+        'vue',
+    ],
     rules: {
         'array-bracket-spacing': ['error', 'never'],
         'brace-style': ['error', '1tbs'],
