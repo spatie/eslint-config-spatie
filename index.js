@@ -1,6 +1,13 @@
 module.exports = {
-    extends: 'eslint:recommended',
-    parser: 'babel-eslint',
+    extends: [
+        'eslint:recommended',
+        'plugin:vue/recommended',
+    ],
+    parserOptions: {
+        parser: 'babel-eslint',
+        ecmaVersion: 2017,
+        sourceType: 'module',
+    },
     env: {
         es6: true,
     },
