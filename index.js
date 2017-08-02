@@ -3,19 +3,23 @@ module.exports = {
         'eslint:recommended',
         'plugin:vue/recommended',
     ],
+
     parserOptions: {
         parser: 'babel-eslint',
         ecmaVersion: 2017,
         sourceType: 'module',
     },
+
     env: {
         es6: true,
         browser: true,
         node: true,
     },
+
     plugins: [
         'vue',
     ],
+
     rules: {
         'array-bracket-spacing': ['error', 'never'],
         'brace-style': ['error', '1tbs'],
@@ -43,4 +47,13 @@ module.exports = {
         'strict': ['error', 'never'],
         'vue/require-v-for-key': 'off',
     },
+
+    'overrides': [
+        {
+            'files': ['*.vue', '**/*.vue'],
+            'rules': {
+                'indent': 'off',
+            },
+        },
+    ],
 };
