@@ -41,5 +41,6 @@ module.exports = {
         'space-in-parens': ['error', 'never'],
         'space-infix-ops': 'error',
         'strict': ['error', 'never'],
+        'vue/require-v-for-key': 'off',
     },
 };
