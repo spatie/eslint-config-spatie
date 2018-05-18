@@ -1,5 +1,7 @@
 # eslint-config-spatie
 
+**This package isn't actively maintained anymore, and the documentation is outdated!**
+
 Our base eslint configuration.
 
 Spatie is a webdesign agency based in Antwerp, Belgium. You'll find an overview of all our open source projects [on our website](https://spatie.be/opensource).
